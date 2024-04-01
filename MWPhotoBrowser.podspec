@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/mwaterfall'
 
   s.source = {
-    :git => 'https://github.com/mwaterfall/MWPhotoBrowser.git',
+    :git => 'git@github.com:tutu-ru-mobile/MWPhotoBrowser.git',
     :tag => '3.0.0'
   }
   s.platform = :ios, '9.0'
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'ImageIO', 'QuartzCore', 'AssetsLibrary', 'MediaPlayer'
   s.weak_frameworks = 'Photos'
 
-  s.dependency 'MBProgressHUD', '~> 0.9'
+  s.dependency 'MBProgressHUD', '~> 1000.0.0'
   s.dependency 'DACircularProgress', '~> 2.3'
   s.dependency 'SDWebImage', '~> 5'
 

@@ -5,10 +5,10 @@ PODS:
     - Expecta (~> 1.0)
     - FBSnapshotTestCase (~> 1.8)
   - FBSnapshotTestCase (1.8.1)
-  - MBProgressHUD (0.9.2)
+  - MBProgressHUD (1000.0.0)
   - MWPhotoBrowser (3.0.0):
     - DACircularProgress (~> 2.3)
-    - MBProgressHUD (~> 0.9)
+    - MBProgressHUD (~> 1000.0.0)
     - SDWebImage (~> 5)
   - SDWebImage (5.19.0):
     - SDWebImage/Core (= 5.19.0)
@@ -23,12 +23,13 @@ DEPENDENCIES:
   - Specta
 
 SPEC REPOS:
+  "git@github.com:tutu-ru-mobile/Specs.git":
+    - MBProgressHUD
   https://github.com/CocoaPods/Specs.git:
     - DACircularProgress
     - Expecta
     - "Expecta+Snapshots"
     - FBSnapshotTestCase
-    - MBProgressHUD
     - SDWebImage
     - Specta
 
@@ -41,11 +42,11 @@ SPEC CHECKSUMS:
   Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
   "Expecta+Snapshots": ca15bfb57e7a0f78f86c7699c2c54ffacfa4ad2a
   FBSnapshotTestCase: 3dc3899168747a0319c5278f5b3445c13a6532dd
-  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
-  MWPhotoBrowser: ae12c55a42ce8a2b12fbbead44722c96b2130d67
+  MBProgressHUD: 3f9eef95596df6e94f604b653c5c571f232e50bc
+  MWPhotoBrowser: fcd9e68ea711b1ad453eff4de3bb5fbc47f9f5b5
   SDWebImage: 981fd7e860af070920f249fd092420006014c3eb
   Specta: 9cec98310dca411f7c7ffd6943552b501622abfe
 
-PODFILE CHECKSUM: f0528201d484bd48f65798bc253cd3bf45d69fcd
+PODFILE CHECKSUM: 319d202906f6b286418a5f44b8125827bde3bfef
 
 COCOAPODS: 1.14.2

@@ -18,7 +18,7 @@
   },
   "social_media_url": "https://twitter.com/mwaterfall",
   "source": {
-    "git": "https://github.com/mwaterfall/MWPhotoBrowser.git",
+    "git": "git@github.com:tutu-ru-mobile/MWPhotoBrowser.git",
     "tag": "3.0.0"
   },
   "platforms": {
@@ -40,7 +40,7 @@
   "weak_frameworks": "Photos",
   "dependencies": {
     "MBProgressHUD": [
-      "~> 0.9"
+      "~> 1000.0.0"
     ],
     "DACircularProgress": [
       "~> 2.3"
