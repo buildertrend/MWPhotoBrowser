@@ -8,7 +8,7 @@
 
 #import <Photos/Photos.h>
 #import "Menu.h"
-#import "SDImageCache.h"
+#import <SDWebImage/SDImageCache.h>
 #import "MWCommon.h"
 
 @implementation Menu
