@@ -3,9 +3,9 @@
     {
       "identity" : "mbprogresshud",
       "kind" : "remoteSourceControl",
-      "location" : "git@github.com:tutu-ru-mobile/MBProgressHUD.git",
+      "location" : "git@github.com:buildertrend/MBProgressHUD.git",
       "state" : {
-        "revision" : "564a3d3104bfe6a5d8d443a9137af036e802e3c0",
+        "revision" : "58b209078f3007aed135316ef5e56c16298b7a96",
         "version" : "1000.0.0"
       }
     },
