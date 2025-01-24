@@ -12,7 +12,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "git@github.com:SDWebImage/SDWebImage.git", from: "5.19.0"),
+        .package(url: "git@github.com:SDWebImage/SDWebImage.git", from: "5.15.2"),
     ],
     targets: [
         .target(
