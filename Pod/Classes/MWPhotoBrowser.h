@@ -73,4 +73,5 @@
 - (void)showNextPhotoAnimated:(BOOL)animated;
 - (void)showPreviousPhotoAnimated:(BOOL)animated;
 
+- (MWZoomingScrollView *)pageDisplayedAtIndex:(NSUInteger)index;
 @end
