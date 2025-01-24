@@ -1,4 +1,3 @@
-source 'git@github.com:tutu-ru-mobile/Specs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'MWPhotoBrowser_Example' do

@@ -18,7 +18,7 @@
   },
   "social_media_url": "https://twitter.com/mwaterfall",
   "source": {
-    "git": "git@github.com:tutu-ru-mobile/MWPhotoBrowser.git",
+    "git": "git@github.com:buildertrend/MWPhotoBrowser.git",
     "tag": "3.2.0"
   },
   "platforms": {
@@ -34,14 +34,10 @@
   "frameworks": [
     "ImageIO",
     "QuartzCore",
-    "AssetsLibrary",
-    "MediaPlayer"
+    "AVKit"
   ],
   "weak_frameworks": "Photos",
   "dependencies": {
-    "MBProgressHUD": [
-      "~> 1000.0.0"
-    ],
     "SDWebImage": [
       "~> 5"
     ]
