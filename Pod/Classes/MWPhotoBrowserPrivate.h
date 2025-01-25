@@ -90,7 +90,6 @@
 // Paging
 - (void)tilePages;
 - (BOOL)isDisplayingPageForIndex:(NSUInteger)index;
-- (MWZoomingScrollView *)pageDisplayedAtIndex:(NSUInteger)index;
 - (MWZoomingScrollView *)pageDisplayingPhoto:(id<MWPhoto>)photo;
 - (MWZoomingScrollView *)dequeueRecycledPage;
 - (void)configurePage:(MWZoomingScrollView *)page forIndex:(NSUInteger)index;

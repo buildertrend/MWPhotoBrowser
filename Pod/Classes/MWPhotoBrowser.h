@@ -11,6 +11,7 @@
 #import "MWPhoto.h"
 #import "MWPhotoProtocol.h"
 #import "MWCaptionView.h"
+#import "MWZoomingScrollView.h"
 
 // Debug Logging
 #if 0 // Set to 1 to enable debug logging
@@ -74,4 +75,5 @@
 - (void)showPreviousPhotoAnimated:(BOOL)animated;
 
 - (MWZoomingScrollView *)pageDisplayedAtIndex:(NSUInteger)index;
+
 @end
